@@ -1,0 +1,119 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #35363a;
+  color: white;
+  font-family: 'Opens Sans', sans-serif;
+  min-height: 100vh;
+}
+
+/* --- --- --- --- Styles Header --- --- --- --- */
+
+header{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  padding: 20px;
+  align-items: center;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+header img {
+  height: 20px;
+}
+
+.user-image {
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* --- --- --- --- Styles Main --- --- --- --- */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container-image {
+  background-color: #1f1f1f;
+  width: 448px;
+  height: 192px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+main img {
+  width: 400px;
+  height: 160px;
+}
+
+/* Input */
+
+.input-wrapper {
+  width: 561px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* input wrapper images */
+.input-wrapper img {
+  height: 20px;
+  width: 20px;
+}
+
+.input-search {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 70%;
+  font-size: 16px;
+  position: relative;
+  top: 2px;
+  background-color: transparent;
+}
+
+.input-search::placeholder {
+  font-size: 16 px;
+  color: gray;
+}
+
+/* --- --- --- --- Button Down --- --- --- ---  */
+
+button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 11px;
+  border-radius: 15px;
+  gap: 10px;
+  background-color: #202124;
+  color: #8ab4f8;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+button img {
+  width: 12px;
+  height: auto;
+}
